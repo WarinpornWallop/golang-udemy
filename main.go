@@ -8,9 +8,9 @@ func main() {
 	// cards := []string{"Ace of Diamonds", newCard()}
 	// cards := deck{"Ace of Diamonds", newCard()} //change type to deck
 	// cards = append(cards, "Six of Spades")
-	//cards := newDeck()
+	cards := newDeck()
 	// hand, remainingCards := deal(cards, 5)
-	cards := newDeckFromFile("my_cards")
+	//cards := newDeckFromFile("my_cards")
 	cards.shuffle()
 	cards.print()
 	// hand.print()
